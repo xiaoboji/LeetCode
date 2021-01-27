@@ -1,4 +1,4 @@
-package com.xiaoboji.day001;
+package com.xiaoboji.no_001_70_climbing_stairs;
 
 /**
  * @program: leetcode
