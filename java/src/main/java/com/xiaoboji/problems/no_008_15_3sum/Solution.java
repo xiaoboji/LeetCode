@@ -1,4 +1,4 @@
-package com.xiaoboji.no_008_15_3sum;
+package com.xiaoboji.problems.no_008_15_3sum;
 
 import java.util.*;
 

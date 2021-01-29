@@ -1,4 +1,4 @@
-package com.xiaoboji.no_003_1_two_sum;
+package com.xiaoboji.problems.no_003_1_two_sum;
 
 /**
  * @program: leetcode

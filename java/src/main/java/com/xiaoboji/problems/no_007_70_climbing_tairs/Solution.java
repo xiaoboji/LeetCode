@@ -1,4 +1,4 @@
-package com.xiaoboji.no_007_70_climbing_tairs;
+package com.xiaoboji.problems.no_007_70_climbing_tairs;
 
 class Solution {
     public int climbStairs(int n) {

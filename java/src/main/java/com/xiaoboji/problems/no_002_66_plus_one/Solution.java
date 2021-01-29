@@ -1,4 +1,4 @@
-package com.xiaoboji.no_002_66_plus_one;
+package com.xiaoboji.problems.no_002_66_plus_one;
 
 /**
  * @program: leetcode

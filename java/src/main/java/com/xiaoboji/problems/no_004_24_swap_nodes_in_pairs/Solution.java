@@ -1,4 +1,6 @@
-package com.xiaoboji.no_004_24_swap_nodes_in_pairs;
+package com.xiaoboji.problems.no_004_24_swap_nodes_in_pairs;
+
+import com.xiaoboji.common.ListNode;
 
 /**
  * @program: leetcode
@@ -37,12 +39,4 @@ public class Solution {
         node2.next = node3;
         swapPairs(head);
     }
-}
-
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode() {}
-    ListNode(int val) { this.val = val; }
-    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 }

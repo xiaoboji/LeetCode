@@ -1,4 +1,4 @@
-package com.xiaoboji.no_006_11_container_with_most_water;
+package com.xiaoboji.problems.no_006_11_container_with_most_water;
 
 class Solution {
     public int maxArea(int[] height) {

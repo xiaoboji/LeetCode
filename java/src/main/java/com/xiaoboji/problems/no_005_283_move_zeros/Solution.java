@@ -1,4 +1,4 @@
-package com.xiaoboji.no_005_283_move_zeros;
+package com.xiaoboji.problems.no_005_283_move_zeros;
 
 class Solution {
     public void moveZeroes(int[] nums) {
