@@ -14,26 +14,24 @@ class Solution {
         if(l2 == null){
             return l1;
         }
-        ListNode pre = new ListNode();
-        pre.next = l1;
+        ListNode pre = new ListNode(-1);
+        ListNode prev = pre;
         while(l1 != null && l2 != null){
             if(l1.val < l2.val ){
-                pre.next = l1;
+                prev.next = l1;
                 l1 = l1.next;
-                continue;
             } else {
-                pre.next = l2;
+                prev.next = l2;
                 l2 = l2.next;
-                pre.next.next = l1;
-                pre = pre.next;
             }
+            prev = prev.next;
         }
         if(l1 != null){
-            pre.next = l1;
+            prev.next = l1;
         }
 
         if(l2 != null){
-            pre.next = l2;
+            prev.next = l2;
         }
         return pre.next;
 
