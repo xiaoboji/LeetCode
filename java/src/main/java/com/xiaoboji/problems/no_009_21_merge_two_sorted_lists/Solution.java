@@ -1,4 +1,4 @@
-package com.xiaoboji.problems.no_009_merge_two_sorted_lists;
+package com.xiaoboji.problems.no_009_21_merge_two_sorted_lists;
 
 import com.xiaoboji.common.ListNode;
 
