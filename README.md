@@ -21,6 +21,6 @@ some leetcode subjects,enhance my skills, expand my knowledge and prepare for te
 15  | 42  | trapping-rain-water<br>(接雨水)  | 1-29  |   |   |   |   |    |[链接](https://leetcode.com/problems/trapping-rain-water/)
 16  | 26  | remove-duplicates-from-sorted-array<br>(删除排序数组中的重复项)  | 1-29  |   |   |   |    |   |[链接](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
 17  | 189  |rotate-array<br>(旋转数组)  | 1-29  |   |   |   |   |    |[链接](https://leetcode-cn.com/problems/rotate-array/)
-18  | 88  | merge-sorted-array(合并两个有序数组)  | 1-29  |   |   |   |   |    |[链接](https://leetcode-cn.com/problems/merge-sorted-array/)
+18  | 88  | merge-sorted-array<br>(合并两个有序数组)  | 1-29  |   |   |   |   |    |[链接](https://leetcode-cn.com/problems/merge-sorted-array/)
 
 
