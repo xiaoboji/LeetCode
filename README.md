@@ -5,7 +5,7 @@ some leetcode subjects,enhance my skills, expand my knowledge and prepare for te
 序号  |  题号 | 题目 | 1遍 | 2遍 | 3遍 | 4遍 | 5遍 |  实现 |链接 |
 ----- |---- | -----| -----| -----| -----| -----| -----| -----| -----
 1  | 70  | climbing-stairs<br>(爬梯子)  | 1-25  |   |   |   |   |   | [链接](https://leetcode-cn.com/problems/climbing-stairs/)
-2  | 66  | plus-one<br>(加1)  | 1-26  |   |   |   |   |   | [链接](https://leetcode-cn.com/problems/plus-one/)
+2  | 66  | plus-one<br>(加1)  | 1-26  |  2.1 |   |   |   |   | [链接](https://leetcode-cn.com/problems/plus-one/)
 3  | 1  | two-sum<br>(两数之和)  | 1-27  |   |   |   |   |    |[链接](https://leetcode-cn.com/problems/two-sum/)
 4  | 24  | swap-nodes-in-pairs<br>(两两交换链表中的节点)  | 1-28  |   |   |   |   |   | [链接](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
 5  | 283  | move-zeros<br>(移动零)  | 1-29  |   |   |   |   |    |[链接](https://leetcode-cn.com/problems/move-zeroes/)
