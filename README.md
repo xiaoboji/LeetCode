@@ -20,7 +20,7 @@ some leetcode subjects,enhance my skills, expand my knowledge and prepare for te
 14  | 641  | design-circular-deque<br>(设计循环双端队列)  |   |   |   |   |   |    |[链接](https://leetcode.com/problems/design-circular-deque)
 15  | 42  | trapping-rain-water<br>(接雨水)  |   |   |   |   |   |    |[链接](https://leetcode.com/problems/trapping-rain-water/)
 16  | 26  | remove-duplicates-from-sorted-array<br>(删除排序数组中的重复项)  | 2.1  |   |   |   |    | [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_016_26_remove_duplicates_from_sorted_array)  |[链接](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
-17  | 189  |rotate-array<br>(旋转数组)  |   |   |   |   |   |    |[链接](https://leetcode-cn.com/problems/rotate-array/)
+17  | 189  |rotate-array<br>(旋转数组)  | 2.2  |   |   |   |   |  [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_017_189_rotate_array)  |[链接](https://leetcode-cn.com/problems/rotate-array/)
 18  | 88  | merge-sorted-array<br>(合并两个有序数组)  |   |   |   |   |   |    |[链接](https://leetcode-cn.com/problems/merge-sorted-array/)
 
 
