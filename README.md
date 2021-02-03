@@ -21,8 +21,8 @@ some leetcode subjects,enhance my skills, expand my knowledge and prepare for te
 15  | 42  | trapping-rain-water<br>(接雨水)  |   |   |   |   |   |    |[链接](https://leetcode.com/problems/trapping-rain-water/)
 16  | 26  | remove-duplicates-from-sorted-array<br>(删除排序数组中的重复项)  | 2.1  |   |   |   |    | [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_016_26_remove_duplicates_from_sorted_array)  |[链接](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)
 17  | 189  |rotate-array<br>(旋转数组)  | 2.2  |   |   |   |   |  [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_017_189_rotate_array)  |[链接](https://leetcode-cn.com/problems/rotate-array/)
-18  | 88  | merge-sorted-array<br>(合并两个有序数组)  |   |   |   |   |   |    |[链接](https://leetcode-cn.com/problems/merge-sorted-array/)
-19  | 242  | valid-anagram<br>(有效的字母异位词)  |   |   |   |   |   |    |[链接](https://leetcode-cn.com/problems/valid-anagram/description/)
+18  | 88  | merge-sorted-array<br>(合并两个有序数组)  | 1.30  |   |   |   |   |    |[链接](https://leetcode-cn.com/problems/merge-sorted-array/)
+19  | 242  | valid-anagram<br>(有效的字母异位词)  | 2.3  |   |   |   |   |    |[链接](https://leetcode-cn.com/problems/valid-anagram/description/)
 20  | 49  | merge-sorted-array<br>(字母异位词分组)  |   |   |   |   |   |    |[链接](https://leetcode-cn.com/problems/group-anagrams/)
 
 
