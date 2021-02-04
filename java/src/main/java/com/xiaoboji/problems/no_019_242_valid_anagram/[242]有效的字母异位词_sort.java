@@ -1,4 +1,4 @@
-package com.xiaoboji.problems.no_019_valid_anagram;//给定两个字符串 s 和 t ，编写一个函数来判断 t 是否是 s 的字母异位词。
+package com.xiaoboji.problems.no_019_242_valid_anagram;//给定两个字符串 s 和 t ，编写一个函数来判断 t 是否是 s 的字母异位词。
 //
 // 示例 1: 
 //
