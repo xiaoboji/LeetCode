@@ -47,8 +47,10 @@ import java.util.HashMap;
 //leetcode submit region begin(Prohibit modification and deletion)
 class SolutionHashMap {
     public int[] twoSum(int[] nums, int target) {
+        // 使用一个map缓存遍历的前期内容
         HashMap<Integer,Integer> map = new HashMap<Integer,Integer>();
         for (int i = 0; i < nums.length; i++) {
+            // 如果有target - nums[i],则返回结果，如果没有则存入map中，做后续判断
             if (map.containsKey(target - nums[i])) {
                 return new int[]{map.get(target - nums[i]),i};
             }
