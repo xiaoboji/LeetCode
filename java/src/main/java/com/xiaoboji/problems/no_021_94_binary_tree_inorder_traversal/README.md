@@ -1,23 +1,26 @@
 # leetcode链接
 
-- [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/submissions/)
+- [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
 
 - 解题思路
-    * 双指针法，后指针在不相等的时候才+1
+    * 递归
 ```java
 class Solution {
-    public int removeDuplicates(int[] nums) {
-        int len = nums.length;
-        // 双指针法，i和j j在不相等的时候才+1
-        int j = 0;
-        for (int i = 0; i < len; i++) {
-            if (nums[j] != nums[i]) {
-                j++;
-                nums[j] = nums[i]; 
-                }
-            } 
-        // j 初始值为0，需要+1
-        return j + 1;    
-    }  
+    // 中序遍历，左子树——根节点——右子树
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> list = new ArrayList<>();
+        inorder(root,list);
+        return list;
+    }
+    public void inorder(TreeNode node, List<Integer> list) {
+        if(node == null){
+            return;
+        }
+
+        buildTree(node.left, list);
+        list.add(node.val);
+        buildTree(node.right, list);
+
+    }
 }
 ```
