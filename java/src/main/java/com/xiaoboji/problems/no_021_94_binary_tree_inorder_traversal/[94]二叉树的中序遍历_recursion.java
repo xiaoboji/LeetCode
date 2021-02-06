@@ -58,8 +58,6 @@ package com.xiaoboji.problems.no_021_94_binary_tree_inorder_traversal;//给定�
 import com.xiaoboji.common.TreeNode;
 
 import java.util.ArrayList;
-import java.util.Deque;
-import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -77,24 +75,22 @@ import java.util.List;
  *     }
  * }
  */
-class SolutionIteration {
+class SolutionRecursion {
     // 中序遍历，左子树——根节点——右子树
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> list = new ArrayList<>();
-        // 维护一个栈，充当JVM里方法栈的作用
-        Deque<TreeNode> stack = new LinkedList<TreeNode>();
-        while (root != null || !stack.isEmpty()) {
-            // 一直到左边为null
-            while (root != null) {
-                stack.push(root);
-                root = root.left;
-            }
-            // 出栈，回到上一个节点，保存值，然后找右边
-            root = stack.pop();
-            list.add(root.val);
-            root = root.right;
-        }
+        inorder(root,list);
         return list;
+    }
+    public void inorder(TreeNode node, List<Integer> list) {
+        if(node == null){
+            return;
+        }
+
+        inorder(node.left, list);
+        list.add(node.val);
+        inorder(node.right, list);
+
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
