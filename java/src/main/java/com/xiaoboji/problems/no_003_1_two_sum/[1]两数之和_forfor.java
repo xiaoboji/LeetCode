@@ -6,7 +6,7 @@ package com.xiaoboji.problems.no_003_1_two_sum;
  * @author: xiaoboji
  * @create: 2021-01-26 22:49
  **/
-public class Solution {
+class SolutionForFor {
   public int[] twoSum(int[] nums, int target) {
     for(int i = 0; i < nums.length; i++){
       for (int j = i + 1; j < nums.length; j++){

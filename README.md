@@ -6,7 +6,7 @@ some leetcode subjects,enhance my skills, expand my knowledge and prepare for te
 ----- |---- | -----| -----| -----| -----| -----| -----| -----| -----
 1  | 70  | climbing-stairs<br>(爬梯子)  | 1.25  |   |   |   |   |  | [链接](https://leetcode-cn.com/problems/climbing-stairs/)
 2  | 66  | plus-one<br>(加1)  | 1.26  | 2.1  |   |   |   | [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_002_66_plus_one)  | [链接](https://leetcode-cn.com/problems/plus-one/)
-3  | 1  | two-sum<br>(两数之和)  | 1.27  |   |   |   |   |    |[链接](https://leetcode-cn.com/problems/two-sum/)
+3  | 1  | two-sum<br>(两数之和)  | 1.27  | 2.5 |   |   |   | [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_003_1_two_sum)  |[链接](https://leetcode-cn.com/problems/two-sum/)
 4  | 24  | swap-nodes-in-pairs<br>(两两交换链表中的节点)  | 1.28  |   |   |   |   |   | [链接](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
 5  | 283  | move-zeros<br>(移动零)  | 1.29  | 2.1  |   |   |   | [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_005_283_move_zeros) |[链接](https://leetcode-cn.com/problems/move-zeroes/)
 6  | 11  | container-with-most-water<br>(盛最多水的容器)| 1.29  |   |   |   |   |    |[链接](https://leetcode-cn.com/problems/container-with-most-water/)
