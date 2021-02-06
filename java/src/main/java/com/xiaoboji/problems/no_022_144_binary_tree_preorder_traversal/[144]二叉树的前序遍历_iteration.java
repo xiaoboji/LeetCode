@@ -1,4 +1,4 @@
-package com.xiaoboji.problems.no_021_94_binary_tree_inorder_traversal;//给定一个二叉树的根节点 root ，返回它的 中序 遍历。
+package com.xiaoboji.problems.no_022_144_binary_tree_preorder_traversal;//给你二叉树的根节点 root ，返回它节点值的 前序 遍历。
 //
 // 
 //
@@ -6,7 +6,7 @@ package com.xiaoboji.problems.no_021_94_binary_tree_inorder_traversal;//给定�
 //
 // 
 //输入：root = [1,null,2,3]
-//输出：[1,3,2]
+//输出：[1,2,3]
 // 
 //
 // 示例 2： 
@@ -27,7 +27,7 @@ package com.xiaoboji.problems.no_021_94_binary_tree_inorder_traversal;//给定�
 //
 // 
 //输入：root = [1,2]
-//输出：[2,1]
+//输出：[1,2]
 // 
 //
 // 示例 5： 
@@ -48,9 +48,9 @@ package com.xiaoboji.problems.no_021_94_binary_tree_inorder_traversal;//给定�
 //
 // 
 //
-// 进阶: 递归算法很简单，你可以通过迭代算法完成吗？ 
-// Related Topics 栈 树 哈希表 
-// 👍 852 👎 0
+// 进阶：递归算法很简单，你可以通过迭代算法完成吗？ 
+// Related Topics 栈 树 
+// 👍 511 👎 0
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
@@ -75,22 +75,21 @@ import java.util.List;
  *     }
  * }
  */
-class SolutionRecursion {
-    // 中序遍历，左子树——根节点——右子树
-    public List<Integer> inorderTraversal(TreeNode root) {
-        List<Integer> list = new ArrayList<>();
-        inorder(root, list);
+class SolutionIteration {
+    // 前序遍历 根节点——左子树——右子树
+    public List<Integer> preorderTraversal(TreeNode root) {
+        List<Integer> list = new ArrayList<Integer>();
+        preorder(root, list);
         return list;
     }
-    public void inorder(TreeNode node, List<Integer> list) {
-        if(node == null){
+
+    public void preorder(TreeNode node, List<Integer> list) {
+        if (node == null) {
             return;
         }
-
-        inorder(node.left, list);
         list.add(node.val);
-        inorder(node.right, list);
-
+        preorder(node.left, list);
+        preorder(node.right, list);
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
