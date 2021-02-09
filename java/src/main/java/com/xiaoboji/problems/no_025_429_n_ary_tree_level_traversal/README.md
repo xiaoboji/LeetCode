@@ -3,7 +3,7 @@
 - [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/submissions/)
 
 - 解题思路
-    * 双指针法，后指针在不相等的时候才+1
+    * 方法一、递归法
 ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
@@ -21,3 +21,5 @@ class Solution {
     }  
 }
 ```
+- 时间复杂度：O(n)。nn 指的是节点的数量
+- 空间复杂度：正常情况 O(log n)，最坏情况 O(n)。运行时在堆栈上的空间。
