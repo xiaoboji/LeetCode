@@ -1,23 +1,29 @@
 # leetcode链接
 
-- [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/submissions/)
+- [N叉树的前序遍历](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/n-ary-tree-preorder-traversal/)
 
 - 解题思路
-    * 双指针法，后指针在不相等的时候才+1
+    * 方法一：递归实现
 ```java
+
 class Solution {
-    public int removeDuplicates(int[] nums) {
-        int len = nums.length;
-        // 双指针法，i和j j在不相等的时候才+1
-        int j = 0;
-        for (int i = 0; i < len; i++) {
-            if (nums[j] != nums[i]) {
-                j++;
-                nums[j] = nums[i]; 
-                }
-            } 
-        // j 初始值为0，需要+1
-        return j + 1;    
-    }  
+    // 先根后孩子
+    public List<Integer> preorder(Node root) {
+        List<Integer> list = new ArrayList<>();
+        preorder(root, list);
+        return list;
+
+    }
+    public void preorder(Node node, List<Integer> list) {
+        if (node == null) {
+            return;
+        }
+
+        list.add(node.val);
+        for (Node n : node.children) {
+            preorder(n, list);
+        }
+    }
+
 }
 ```
