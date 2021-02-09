@@ -6,20 +6,25 @@
     * 方法一、递归法
 ```java
 class Solution {
-    public int removeDuplicates(int[] nums) {
-        int len = nums.length;
-        // 双指针法，i和j j在不相等的时候才+1
-        int j = 0;
-        for (int i = 0; i < len; i++) {
-            if (nums[j] != nums[i]) {
-                j++;
-                nums[j] = nums[i]; 
-                }
-            } 
-        // j 初始值为0，需要+1
-        return j + 1;    
-    }  
+
+    // 按层进行存储递归,按层进行存储
+    public List<List<Integer>> levelOrder(Node root) {
+        List<List<Integer>> result = new ArrayList<List<Integer>>();
+        if(root != null){
+            levelOrder(root, 0, result);
+        }
+        return result;
+    }
+
+    public void levelOrder(Node node, int level, List<List<Integer>> result) {
+        if (result.size() <= level) {
+            result.add(new ArrayList<Integer>());
+        }
+
+        result.get(level).add(node.val);
+        for (Node n : node.children) {
+            levelOrder(n, level + 1, result);
+        }
+    }
 }
 ```
-- 时间复杂度：O(n)。nn 指的是节点的数量
-- 空间复杂度：正常情况 O(log n)，最坏情况 O(n)。运行时在堆栈上的空间。
