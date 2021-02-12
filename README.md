@@ -40,7 +40,7 @@ some leetcode subjects,enhance my skills, expand my knowledge and prepare for te
 34  | 111 | minimum-depth-of-binary-tree<br>(二叉树的最小深度)  |   |   |   |   |   | [代码]() |[链接](hhttps://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
 35  | 297 | serialize-and-deserialize-binary-tree<br>(二叉树的序列化与反序列化)  |   |   |   |   |   | [代码]() |[链接](hhttps://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/)
 36  | 236  | lowest-common-ancestor-of-a-binary-tree<br>(二叉树的最近公共祖先)  |   |   |   |   |   | [代码]() |[链接](hhttps://leetcode-cn.com/problems/owest-common-ancestor-of-a-binary-tree/)
-37  | 105  | construct-binary-tree-from-preorder-and-inorder-traversal<br>(从前序与中序遍历序列构造二叉树)  |   |   |   |   |   | [代码]() |[链接](hhttps://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)
+37  | 105  | tree-from-preorder-and-inorder-traversal<br>(从前序与中序遍历序列构造二叉树)  |   |   |   |   |   | [代码]() |[链接](hhttps://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)
 38  | 77  | combinations<br>(组合)  |   |   |   |   |   | [代码]() |[链接](hhttps://leetcode-cn.com/problems/combinations/)
 39  | 46  | permutations<br>(全排列)  |   |   |   |   |   | [代码]() |[链接](hhttps://leetcode-cn.com/problems/permutations/)
 40  | 47  | permutations-ii<br>(全排列 II)  |   |   |   |   |   | [代码]() |[链接](hhttps://leetcode-cn.com/problems/permutations-ii/)
