@@ -6,7 +6,7 @@ some leetcode subjects,enhance my skills, expand my knowledge and prepare for te
 ----- |---- | -----| -----| -----| -----| -----| -----| -----| -----
 1  | 70  | climbing-stairs<br>(爬梯子)  | 1.25  |   |   |   |   |  | [链接](https://leetcode-cn.com/problems/climbing-stairs/)
 2  | 66  | plus-one<br>(加1)  | 1.26  | 2.1  |   |   |   | [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_002_66_plus_one)  | [链接](https://leetcode-cn.com/problems/plus-one/)
-3  | 1  | two-sum<br>(两数之和)  | 1.27  | 2.5 |   |   |   | [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_003_1_two_sum)  |[链接](https://leetcode-cn.com/problems/two-sum/)
+3  | 1  | two-sum<br>(两数之和)  | 1.27  | 2.5 | 2.15  |   |   | [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_003_1_two_sum)  |[链接](https://leetcode-cn.com/problems/two-sum/)
 4  | 24  | swap-nodes-in-pairs<br>(两两交换链表中的节点)  | 1.28  |   |   |   |   |   | [链接](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
 5  | 283  | move-zeros<br>(移动零)  | 1.29  | 2.1  |   |   |   | [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_005_283_move_zeros) |[链接](https://leetcode-cn.com/problems/move-zeroes/)
 6  | 11  | container-with-most-water<br>(盛最多水的容器)| 1.29  |   |   |   |   |    |[链接](https://leetcode-cn.com/problems/container-with-most-water/)
@@ -23,7 +23,7 @@ some leetcode subjects,enhance my skills, expand my knowledge and prepare for te
 17  | 189  |rotate-array<br>(旋转数组)  | 2.2  |   |   |   |   |  [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_017_189_rotate_array)  |[链接](https://leetcode-cn.com/problems/rotate-array/)
 18  | 88  | merge-sorted-array<br>(合并两个有序数组)  | 1.30  |   |   |   |   |    |[链接](https://leetcode-cn.com/problems/merge-sorted-array)
 19  | 242  | valid-anagram<br>(有效的字母异位词)  | 2.3  | 2.15  |   |   |   |   [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_019_242_valid_anagram) |[链接](https://leetcode-cn.com/problems/valid-anagram)
-20  | 49  | group-anagrams<br>(字母异位词分组)  |  2.4 |   |   |   |   | [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_020_49_group_anagrams) |[链接](https://leetcode-cn.com/problems/group-anagrams)
+20  | 49  | group-anagrams<br>(字母异位词分组)  |  2.4 |  2.15 |   |   |   | [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_020_49_group_anagrams) |[链接](https://leetcode-cn.com/problems/group-anagrams)
 21  | 94  | binary-tree-inorder-traversal<br>(二叉树的中序遍历)  |  2.6 |   |   |   |   | [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_021_94_binary_tree_inorder_traversal) |[链接](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
 22  | 144  | binary-tree-preorder-traversal<br>(二叉树的前序遍历)  |  2.6 |   |   |   |   | [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_022_144_binary_tree_preorder_traversal) |[链接](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
 23  | 590  | n-ary-tree-postorder-traversal<br>(N叉树的后序遍历)  |  2.9 |   |   |   |   | [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_023_590_n_ary_tree_postorder_traversal) |[链接](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/)
