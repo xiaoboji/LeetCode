@@ -49,7 +49,7 @@ some leetcode subjects,enhance my skills, expand my knowledge and prepare for te
 43  | 169 | majority-element<br>(多数元素 )  |   |   |   |   |   | [代码]() |[链接](hhttps://leetcode-cn.com/problems/majority-element/)
 44  | 17 | letter-combinations-of-a-phone-number<br>(电话号码的字母组合)  |   |   |   |   |   | [代码]() |[链接](hhttps://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
 45  | 51  | n-queens<br>(N 皇后)  |   |   |   |   |   | [代码]() |[链接](hhttps://leetcode-cn.com/problems/n-queens/)
-46  |   | <br>()  |   |   |   |   |   | [代码]() |[链接](hhttps://leetcode-cn.com/problems//)
+46  | 145 | binary-tree-postorder-traversal<br>(二叉树的后续遍历)  |   |   |   |   |   | [代码]() |[链接](hhttps://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
 47  |   | <br>()  |   |   |   |   |   | [代码]() |[链接](hhttps://leetcode-cn.com/problems//)
 48  |   | <br>()  |   |   |   |   |   | [代码]() |[链接](hhttps://leetcode-cn.com/problems//)
 49  |   | <br>()  |   |   |   |   |   | [代码]() |[链接](hhttps://leetcode-cn.com/problems//)
