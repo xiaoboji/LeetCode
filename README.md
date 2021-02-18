@@ -4,7 +4,7 @@ some leetcode subjects,enhance my skills, expand my knowledge and prepare for te
 # 做题记录
 序号  |  题号 | 题目 | 1遍 | 2遍 | 3遍 | 4遍 | 5遍 |  实现 |链接 |
 ----- |---- | -----| -----| -----| -----| -----| -----| -----| -----
-1  | 70  | climbing-stairs<br>(爬梯子)  | 1.25  |   |   |   |   |  | [链接](https://leetcode-cn.com/problems/climbing-stairs/)
+1  | 70  | climbing-stairs<br>(爬梯子)  | 1.25  | 2.18  |   |   |   |  | [链接](https://leetcode-cn.com/problems/climbing-stairs/)
 2  | 66  | plus-one<br>(加1)  | 1.26  | 2.1  |   |   |   | [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_002_66_plus_one)  | [链接](https://leetcode-cn.com/problems/plus-one/)
 3  | 1  | two-sum<br>(两数之和)  | 1.27  | 2.5 | 2.15  |   |   | [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_003_1_two_sum)  |[链接](https://leetcode-cn.com/problems/two-sum/)
 4  | 24  | swap-nodes-in-pairs<br>(两两交换链表中的节点)  | 1.28  |   |   |   |   |   | [链接](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
@@ -29,7 +29,7 @@ some leetcode subjects,enhance my skills, expand my knowledge and prepare for te
 23  | 590  | n-ary-tree-postorder-traversal<br>(N叉树的后序遍历)  |  2.9 | 2.16 |   |   |   | [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_023_590_n_ary_tree_postorder_traversal) |[链接](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/)
 24  | 589  | n-ary-tree-preorder-traversal<br>(N叉树的前序遍历)  |  2.9 | 2.16  |   |   |   | [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_024_589_n_ary_tree_preorder_traversal) |[链接](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/description/)
 25  | 429  | n-ary-tree-level-order-traversal<br>(N叉树的层次遍历)  |  2.9 | 2.16  |   |   |   | [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_025_429_n_ary_tree_level_traversal) |[链接](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/)
-26  | J49  | chou-shu-lcof<br>(丑数)  | 2.10 |   |   |   |   | [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_026_49_chou_shu_lcof) |[链接](https://leetcode-cn.com/problems/chou-shu-lcof/)
+26  | J49  | chou-shu-lcof<br>(丑数)  | 2.10 | 2.18  |   |   |   | [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_026_49_chou_shu_lcof) |[链接](https://leetcode-cn.com/problems/chou-shu-lcof/)
 27  | 347  | top-k-frequent-elements<br>(前K个高频元素)  |   |   |   |   |   | [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_027_347_top_k_frequent_elements) |[链接](https://leetcode-cn.com/problems/top-k-frequent-elements/)
 28  | J40  | zui-xiao-de-kge-shu-lcof<br>(最小的 k 个数)  |   |   |   |   |   | [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_028_J40_zui_xiao_de_kge_shu_lcof) |[链接](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)
 29  | 200  | number-of-islands<br>(岛屿数量)  |   |   |   |   |   | [代码](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_029_200_number_of_islands) |[链接](https://leetcode-cn.com/problems/number-of-islands/)
