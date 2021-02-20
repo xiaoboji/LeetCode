@@ -1,19 +1,45 @@
-- leetcode链接
+package com.xiaoboji.problems.no_037_105_onstruct_binary_tree_from_preorder_and_inorder_traversal;//根据一棵树的前序遍历与中序遍历构造二叉树。
+//
+// 注意: 
+//你可以假设树中没有重复的元素。 
+//
+// 例如，给出 
+//
+// 前序遍历 preorder = [3,9,20,15,7]
+//中序遍历 inorder = [9,3,15,20,7] 
+//
+// 返回如下的二叉树： 
+//
+//     3
+//   / \
+//  9  20
+//    /  \
+//   15   7 
+// Related Topics 树 深度优先搜索 数组 
+// 👍 877 👎 0
 
-[105. 从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
-- 解题思路
 
-对于任意一颗树而言，前序遍历的形式总是
+//leetcode submit region begin(Prohibit modification and deletion)
 
-[ 根节点, [左子树的前序遍历结果], [右子树的前序遍历结果] ]
+import com.xiaoboji.common.TreeNode;
+import java.util.HashMap;
+import java.util.Map;
 
-即根节点总是前序遍历中的第一个节点。而中序遍历的形式总是
-
-[ [左子树的中序遍历结果], 根节点, [右子树的中序遍历结果] ]
-
-只要我们在中序遍历中定位到根节点，那么我们就可以分别知道左子树和右子树中的节点数目。
-
-```
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
 class Solution {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
         int prelen = preorder.length;
@@ -53,7 +79,4 @@ class Solution {
       return root;
   }
 }
-```
-时间复杂度：O(n)，其中 n 是树中的节点个数。
-
-空间复杂度：O(n)，除去返回的答案需要的 O(n) 空间之外，我们还需要使用 O(n) 的空间存储哈希映射，以及 O(h)（其中 h 是树的高度）的空间表示递归时栈空间。这里 h < nh<n，所以总空间复杂度为 O(n)O(n)。
+//leetcode submit region end(Prohibit modification and deletion)
